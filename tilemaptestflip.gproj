@@ -1,0 +1,49 @@
+<project>
+ <properties logicalHeight="480" tv_icon="" mouseTouchOrder="0" packageName="com.piretro.testflip" android_template="1" backgroundColor="#ffffff" windowWidth="0" architecture="8" retinaDisplay="0" osx_category="5" app_icon="" osx_bundle="com.yourdomain." scaleMode="0" version_code="1" fps="60" encryptCode="1" splashScaleMode="0" disableSplash="0" ios_bundle="com.yourdomain." html5_host="" mouseToTouch="1" orientation="0" win_org="GiderosMobile" version="1.0" iosDevice="0" autorotation="0" html5_pack="0" encryptAssets="1" winrt_package="com.yourdomain.yourapp" build_number="1" win_domain="giderosmobile.com" logicalWidth="320" windowHeight="0" app_name="" splash_v_image="" exportMode="0" osx_org="GiderosMobile" touchToMouse="1" osx_domain="giderosmobile.com" splash_h_image="" html5_mem="256" winrt_org="GiderosMobile">
+  <imageScales/>
+  <plugins>
+   <plugin name="Ads" enabled="0"/>
+   <plugin name="Bitop" enabled="1"/>
+   <plugin name="Camera" enabled="0"/>
+   <plugin name="Clipper" enabled="0"/>
+   <plugin name="Controller" enabled="0"/>
+   <plugin name="Countly" enabled="0"/>
+   <plugin name="Exampleplugin" enabled="0"/>
+   <plugin name="Facebook" enabled="0"/>
+   <plugin name="Flurry" enabled="0"/>
+   <plugin name="Gaming" enabled="0"/>
+   <plugin name="Google Licensing plugin" enabled="0"/>
+   <plugin name="Google Play Services" enabled="0"/>
+   <plugin name="Iab" enabled="0"/>
+   <plugin name="JSON" enabled="0"/>
+   <plugin name="Lpeg" enabled="0"/>
+   <plugin name="Lua Socket" enabled="0"/>
+   <plugin name="LuaFileSystem" enabled="0"/>
+   <plugin name="LuaSqlite3" enabled="0"/>
+   <plugin name="Media plugin" enabled="0"/>
+   <plugin name="Microphone" enabled="0"/>
+   <plugin name="Native" enabled="0"/>
+   <plugin name="Require" enabled="0"/>
+   <plugin name="Store Detector" enabled="0"/>
+   <plugin name="Struct" enabled="0"/>
+  </plugins>
+  <exports>
+   <export name="APK">
+    <property value="C:/Users/P/AppData/Local/Android/sdk1" name="androidPath"/>
+    <property value="25" name="androidSdk"/>
+    <property value="19" name="androidTarget"/>
+    <property value="25.0.0" name="androidTools"/>
+    <property value="1" name="buildApk"/>
+    <property value="1" name="deployApk"/>
+    <property value="C:/Program Files/Android/Android Studio/jre/jre" name="javaPath"/>
+    <property value="" name="keyAlias"/>
+    <property value="" name="keyStore"/>
+    <property value="com.piretro.tilefliptest" name="packageName"/>
+   </export>
+  </exports>
+ </properties>
+ <file source="sewer_tileset.png"/>
+ <file source="tiledmap.lua"/>
+ <file source="test.lua" excludeFromExecution="1"/>
+ <file source="main.lua"/>
+</project>
